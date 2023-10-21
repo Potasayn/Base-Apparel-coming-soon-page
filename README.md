@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Potasayn/Base-Apparel-coming-soon-page
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://potasayn.github.io/Base-Apparel-coming-soon-page/
 
 ## My process
 
