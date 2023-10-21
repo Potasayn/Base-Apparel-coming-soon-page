@@ -26,12 +26,12 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshots/Screenshot_desktop.png)
-![](./screenshots/Screenshot_moblie.png)
+![](./screenshots/Screenshot_mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/Potasayn/Base-Apparel-coming-soon-page
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
