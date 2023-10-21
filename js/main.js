@@ -1,6 +1,7 @@
 const input = document.querySelector('.page__input-input');
 const btn = document.querySelector('.page__input-btn');
 const errorMsg = document.querySelector('.page__input-error');
+const errorIcon = document.querySelector('.page__input-error-icon')
 
 const validateEmail = () => {
 	const re =
@@ -8,13 +9,16 @@ const validateEmail = () => {
 
 	if (re.test(input.value)) {
 		errorMsg.style.visibility = 'hidden';
-		console.log('ok');
 	} else {
 		errorMsg.style.visibility = 'visible';
+		input.classList.add('error')
+		errorIcon.style.display = 'block'
 	}
 
 	setTimeout(() => {
 		errorMsg.style.visibility = 'hidden';
+		input.classList.remove('error')
+		errorIcon.style.display = 'none'
 	}, 5000);
 };
 
