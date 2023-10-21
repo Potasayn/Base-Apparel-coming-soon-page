@@ -2,7 +2,7 @@
 
 .page {
 	max-width: 425px;
-	height: 800px;
+	height: 100vh;
 	background-image: linear-gradient(135deg, $white 0%, $white-sec 100%);
 
 	&__logo {
@@ -112,6 +112,10 @@
 @media (min-width: 1440px) {
 
 	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 		background-image: url('../images/bg-pattern-desktop.svg');
 		background-size: cover;
 		background-position: center;
@@ -122,7 +126,7 @@
 		grid-template-rows: repeat(4, min-content);
 		grid-template-columns: 1fr 600px;
 		max-width: 1440px;
-		height: 100vh;
+		height: 100%;
 		background-image: inherit;
 	
 		&__logo {
@@ -133,6 +137,7 @@
 			grid-area: 1/ 2/ 6/ 2;
 			width: 100%;
 			height: 100%;
+			max-height: 800px;
 			background-image: url('../images/hero-desktop.jpg');
 			background-position: center;
 		}

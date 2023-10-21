@@ -12,6 +12,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -43,7 +44,7 @@ button {
 }
 .page {
   max-width: 425px;
-  height: 800px;
+  height: 100vh;
   background-image: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(0, 100%, 98%) 100%);
 }
 .page__logo {
@@ -141,6 +142,10 @@ button {
 
 @media (min-width: 1440px) {
   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image: url("../images/bg-pattern-desktop.svg");
     background-size: cover;
     background-position: center;
@@ -150,7 +155,7 @@ button {
     grid-template-rows: repeat(4, min-content);
     grid-template-columns: 1fr 600px;
     max-width: 1440px;
-    height: 100vh;
+    height: 100%;
     background-image: inherit;
   }
   .page__logo {
@@ -160,6 +165,7 @@ button {
     grid-area: 1/2/6/2;
     width: 100%;
     height: 100%;
+    max-height: 800px;
     background-image: url("../images/hero-desktop.jpg");
     background-position: center;
   }
